@@ -16,11 +16,16 @@ namespace ServiceGatewayProtocol
     // [System.Web.Script.Services.ScriptService]
     public class Service1 : System.Web.Services.WebService
     {
+        [WebMethod]
+        public param check(string merchantId, string branch, string alias, param[] data, string hash)
+        {
+            return new param();
+        }
 
         [WebMethod]
-        public string HelloWorld()
+        public param pay(string merchantId, string branch, string alias, param[] data, string hash)
         {
-            return "Hello World";
+            return new param();
         }
     }
 }

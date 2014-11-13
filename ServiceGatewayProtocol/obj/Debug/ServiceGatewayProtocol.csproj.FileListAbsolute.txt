@@ -1,0 +1,4 @@
+E:\C#\ServiceGatewayProtocol\ServiceGatewayProtocol\bin\ServiceGatewayProtocol.dll
+E:\C#\ServiceGatewayProtocol\ServiceGatewayProtocol\bin\ServiceGatewayProtocol.pdb
+E:\C#\ServiceGatewayProtocol\ServiceGatewayProtocol\obj\Debug\ServiceGatewayProtocol.dll
+E:\C#\ServiceGatewayProtocol\ServiceGatewayProtocol\obj\Debug\ServiceGatewayProtocol.pdb
