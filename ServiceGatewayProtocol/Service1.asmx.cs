@@ -17,15 +17,17 @@ namespace ServiceGatewayProtocol
     public class Service1 : System.Web.Services.WebService
     {
         [WebMethod]
-        public param check(string merchantId, string branch, string alias, param[] data, string hash)
+        public param[] check(string merchantId, string branch, string alias, param[] data, string hash)
         {
-            return new param();
+            param[] result = null;
+            return result;
         }
 
         [WebMethod]
-        public param pay(string merchantId, string branch, string alias, param[] data, string hash)
+        public param[] pay(string merchantId, string branch, string alias, string paymentId, param[] data, string hash)
         {
-            return new param();
+            param[] result = null;
+            return result;
         }
     }
 }
